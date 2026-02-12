@@ -1,30 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>DevOps Learning Hub</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello DevOps</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 <body>
-<header>
-    <h1>DevOps Learning Hub</h1>
-    <p>Master modern DevOps tools & practices</p>
-</header>
-
-<section class="hero">
-    <h2>🚀 Learning Starts Soon</h2>
-    <p>A structured, practical journey into DevOps concepts.</p>
-</section>
-
-<section class="tools">
-    <h2>Technologies You Will Learn</h2>
-    <div class="logo-grid">
-        <p>Add tool logos here</p>
+  <div class="flex min-h-screen">
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+      <h1>Hello DevOps</h1>
+      <p>Simplifying DevOps with top-down approach. Learn why we use each tool practically.</p>
+      <h2>Tools & Tech</h2>
+      <div class="tools">
+        <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker">
+        <img src="https://img.icons8.com/color/48/000000/kubernetes.png" alt="Kubernetes">
+        <img src="https://img.icons8.com/color/48/000000/aws.png" alt="AWS">
+        <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux">
+      </div>
+      <h2>Projects</h2>
+      <ul>
+        <li>AI Desktop Assistant</li>
+        <li>Prometheus + ServiceNow Integration</li>
+        <li>CI/CD Automation</li>
+      </ul>
     </div>
-</section>
 
-<footer>
-    <p>© 2026 DevOps Learning Hub</p>
-</footer>
+    <!-- Main Content -->
+    <div class="main-content">
+      <section class="hero" data-aos="fade-up">
+        <h2>DevOps Made Simple</h2>
+        <p>Learn DevOps with practical, hands-on experience. Understand the 'why' behind every tool.</p>
+        <a href="#projects">View Projects</a>
+      </section>
+
+      <section class="philosophy" data-aos="fade-left">
+        <h3>Our Philosophy</h3>
+        <p>We simplify DevOps using a top-down approach — learn concepts first, then tools, then practical application.</p>
+      </section>
+
+      <section class="tools-section" data-aos="fade-right">
+        <div class="tool-card">
+          <img src="https://img.icons8.com/color/64/000000/docker.png" alt="Docker">
+          <h4>Docker</h4>
+          <p>Containerize applications for portability.</p>
+        </div>
+        <div class="tool-card">
+          <img src="https://img.icons8.com/color/64/000000/kubernetes.png" alt="Kubernetes">
+          <h4>Kubernetes</h4>
+          <p>Orchestrate containerized apps seamlessly.</p>
+        </div>
+        <div class="tool-card">
+          <img src="https://img.icons8.com/color/64/000000/aws.png" alt="AWS">
+          <h4>AWS</h4>
+          <p>Deploy and manage cloud infrastructure reliably.</p>
+        </div>
+      </section>
+
+      <section id="projects" class="projects" data-aos="fade-up">
+        <h3>Featured Projects</h3>
+        <div class="project-card">
+          <h4>AI Desktop Assistant</h4>
+          <p>Automate desktop tasks using Python and AI for productivity.</p>
+        </div>
+        <div class="project-card">
+          <h4>Prometheus + ServiceNow</h4>
+          <p>Integrate monitoring data into ServiceNow for automated incidents.</p>
+        </div>
+        <div class="project-card">
+          <h4>CI/CD Automation</h4>
+          <p>Build pipelines with Jenkins, Terraform, and Kubernetes.</p>
+        </div>
+      </section>
+
+      <section class="testimonials" data-aos="fade-up">
+        <h3>Testimonials</h3>
+        <div class="testimonial">
+          <p>“The top-down approach made learning DevOps intuitive!”</p>
+          <span>— Software Engineer</span>
+        </div>
+        <div class="testimonial">
+          <p>“Finally, a clear way to understand why each tool exists in real-world DevOps.”</p>
+          <span>— DevOps Engineer</span>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
