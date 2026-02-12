@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #000;
+  color: #fff;
+  margin: 0;
+}
+
+.flex { display: flex; }
+
+.sidebar {
+  width: 25%;
+  background: #111;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar h1 { font-size: 2rem; margin-bottom: 1rem; color: #6366F1; }
+.sidebar p { margin-bottom: 1rem; }
+.sidebar h2 { margin-top: 1rem; margin-bottom: 0.5rem; }
+
+.tools { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+.tools img { width: 40px; height: 40px; }
+
+.sidebar ul { list-style: none; padding-left: 0; }
+.sidebar li { margin-bottom: 0.5rem; cursor: pointer; }
+.sidebar li:hover { color: #6366F1; }
+
+.main-content { flex: 1; padding: 2rem; }
+
+.hero h2 { font-size: 3rem; color: #6366F1; }
+.hero a { display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: #6366F1; color: #fff; border-radius: 0.5rem; text-decoration: none; }
+.hero a:hover { background: #4f46e5; }
+
+.tools-section { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2rem; }
+.tool-card { background: #222; padding: 1rem; border-radius: 1rem; text-align: center; }
+.tool-card:hover { box-shadow: 0 0 10px #6366F1; }
+
+.projects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-bottom: 2rem; }
+.project-card { background: #222; padding: 1rem; border-radius: 1rem; }
+.project-card:hover { box-shadow: 0 0 10px #6366F1; }
+
+.testimonials .testimonial { background: #222; padding: 1rem; border-radius: 1rem; margin-bottom: 1rem; }
